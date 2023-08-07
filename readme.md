@@ -2,8 +2,8 @@
 
 ## Links
 
-- [GitHub](https://github.com/brunosimon/experiment-holographic-terrain)
-- [Live](https://experiment-holographic-terrain.vercel.app)
+- [GitHub](https://github.com/dhanush2468/holographic-landingpage-using-three-js)
+
 
 ## Setup
 
