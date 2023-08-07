@@ -1,0 +1,91 @@
+@font-face
+{
+    font-family: 'Ailerons';
+    src: url('./fonts/subset-Ailerons-Regular.woff2') format('woff2'),
+        url('./fonts/subset-Ailerons-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+*::selection
+{
+    /* color: #aaaaaa; */
+    background: #ffffff22;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background: #130621;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.title
+{
+    position: absolute;
+    top: calc(50% - 14vmin / 2);
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 14vmin;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    font-family: 'Ailerons', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.menu .bar
+{
+    width: 80%;
+    height: 2px;
+    margin-bottom: 6px;
+    background: #ffffff;
+}
+
+.credits
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.credits a
+{
+    color: inherit;
+}
